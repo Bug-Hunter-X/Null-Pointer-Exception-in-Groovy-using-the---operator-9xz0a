@@ -1,0 +1,3 @@
+This repository demonstrates a common Groovy error related to null pointer exceptions when using the '+' operator with null values.  Groovy's dynamic typing can mask these issues. The `bug.groovy` file shows the problematic code, while `bugSolution.groovy` provides a corrected version.
+
+The solution involves explicit null checks to avoid the exception.  Understanding Groovy's type handling is crucial to avoiding this kind of unexpected behavior.
